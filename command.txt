@@ -1,10 +1,12 @@
 git status -> print the status
-git init -> init repo
-git config --global user.name <>
-git config --global user.email <>
-git config user.name <>
-git config user.email <>
-git add
-git commit -m ""
-git log
-git diff <filename>
+git init -> initializes the git repo
+git config --global user.name <> -> specify username globally
+git config --global user.email <> -> specifu email globaly
+git config user.name <> -> specify username for particular repo
+git config user.email <> -> specify emaail for particular repo
+git add -> add file to staging env
+git commit -m "" -> commit file to local git repo
+git log -> check file log history
+git diff <filename> -> check changes made to file with existing file
+git remote add origin <GitHub Repository URL> -> establish connection to the remote git repo
+git push origin master -> push to master branch
