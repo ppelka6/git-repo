@@ -1,5 +1,5 @@
 git status -> print the status
-git init
+git init -> init repo
 git config --global user.name <>
 git config --global user.email <>
 git config user.name <>
